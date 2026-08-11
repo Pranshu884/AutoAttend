@@ -1,0 +1,29 @@
+# Python virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Claude Code local files
+.claude/plans/
+
+# Frontend dependencies
+node_modules/
+
+# Frontend build output
+dist/
+build/
+
+# Logs
+*.log
